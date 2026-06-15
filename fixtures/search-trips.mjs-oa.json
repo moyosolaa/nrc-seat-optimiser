@@ -1,0 +1,189 @@
+{
+  "status": 200,
+  "message": "Operation successful",
+  "result": [
+    {
+      "tripId": "6a2757bc978b821dbaf1f9a0",
+      "vehicleName": "Lagos-Ibadan Morning Train",
+      "vehicleCode": "LI1",
+      "tripDate": "2026-06-15T00:00:00.000Z",
+      "fromStation": {
+        "stationId": "004a3e07-0b8b-4963-a7da-d6ddda455237",
+        "sequence": 1,
+        "arrivalTime": "07:57",
+        "departureTime": "08:00",
+        "distance": null,
+        "stationName": "Mobolaji Johnson Station Ebute Metta",
+        "stationCode": "MJS"
+      },
+      "routeId": "d149d4e3-2629-4435-863d-4f0fa8d6f270",
+      "routeName": "LAGOS-IBADAN_LITS",
+      "toStation": {
+        "stationId": "ec4334a8-2c00-401f-a77e-fc2585fc55d3",
+        "sequence": 9,
+        "arrivalTime": "10:33",
+        "departureTime": "10:36",
+        "distance": null,
+        "stationName": "Obafemi Awolowo Station Moniya",
+        "stationCode": "OA"
+      },
+      "coaches": [
+        {
+          "coachTypeId": "66742888-5bac-4aa0-ab82-167123a73f83",
+          "coachTypeName": "First Class",
+          "travellerCategory": [
+            {
+              "id": "9d761cd6-9822-4541-8318-ac97fa615072",
+              "name": "Adult",
+              "showOnTom": false,
+              "fareValue": 13000
+            },
+            {
+              "id": "a35ba950-d8fd-459f-b771-c3bb03be2169",
+              "name": "Child",
+              "showOnTom": false,
+              "fareValue": 13000
+            }
+          ],
+          "availableSeats": 0,
+          "unreservedSeats": 0,
+          "unreservedSeatStatus": false
+        },
+        {
+          "coachTypeId": "bf4112a2-1d6b-4d90-8bdf-d634039a49f3",
+          "coachTypeName": "Business Class",
+          "travellerCategory": [
+            {
+              "id": "9d761cd6-9822-4541-8318-ac97fa615072",
+              "name": "Adult",
+              "showOnTom": false,
+              "fareValue": 6500
+            },
+            {
+              "id": "a35ba950-d8fd-459f-b771-c3bb03be2169",
+              "name": "Child",
+              "showOnTom": false,
+              "fareValue": 6500
+            }
+          ],
+          "availableSeats": 0,
+          "unreservedSeats": 0,
+          "unreservedSeatStatus": false
+        },
+        {
+          "coachTypeId": "9abb16d9-f6e9-428a-b872-1721d4f40398",
+          "coachTypeName": "Standard Class",
+          "travellerCategory": [
+            {
+              "id": "9d761cd6-9822-4541-8318-ac97fa615072",
+              "name": "Adult",
+              "showOnTom": false,
+              "fareValue": 3600
+            },
+            {
+              "id": "a35ba950-d8fd-459f-b771-c3bb03be2169",
+              "name": "Child",
+              "showOnTom": false,
+              "fareValue": 3000
+            }
+          ],
+          "availableSeats": 169,
+          "unreservedSeats": 0,
+          "unreservedSeatStatus": false
+        }
+      ]
+    },
+    {
+      "tripId": "6a2757bd978b821dbaf1fc39",
+      "vehicleName": "Lagos-Ibadan_Evening Train",
+      "vehicleCode": "LI3",
+      "tripDate": "2026-06-15T00:00:00.000Z",
+      "fromStation": {
+        "stationId": "004a3e07-0b8b-4963-a7da-d6ddda455237",
+        "sequence": 1,
+        "arrivalTime": "15:57",
+        "departureTime": "16:00",
+        "distance": null,
+        "stationName": "Mobolaji Johnson Station Ebute Metta",
+        "stationCode": "MJS"
+      },
+      "routeId": "d149d4e3-2629-4435-863d-4f0fa8d6f270",
+      "routeName": "LAGOS-IBADAN_LITS",
+      "toStation": {
+        "stationId": "ec4334a8-2c00-401f-a77e-fc2585fc55d3",
+        "sequence": 9,
+        "arrivalTime": "18:33",
+        "departureTime": "18:36",
+        "distance": null,
+        "stationName": "Obafemi Awolowo Station Moniya",
+        "stationCode": "OA"
+      },
+      "coaches": [
+        {
+          "coachTypeId": "66742888-5bac-4aa0-ab82-167123a73f83",
+          "coachTypeName": "First Class",
+          "travellerCategory": [
+            {
+              "id": "9d761cd6-9822-4541-8318-ac97fa615072",
+              "name": "Adult",
+              "showOnTom": false,
+              "fareValue": 13000
+            },
+            {
+              "id": "a35ba950-d8fd-459f-b771-c3bb03be2169",
+              "name": "Child",
+              "showOnTom": false,
+              "fareValue": 13000
+            }
+          ],
+          "availableSeats": 3,
+          "unreservedSeats": 0,
+          "unreservedSeatStatus": false
+        },
+        {
+          "coachTypeId": "bf4112a2-1d6b-4d90-8bdf-d634039a49f3",
+          "coachTypeName": "Business Class",
+          "travellerCategory": [
+            {
+              "id": "9d761cd6-9822-4541-8318-ac97fa615072",
+              "name": "Adult",
+              "showOnTom": false,
+              "fareValue": 6500
+            },
+            {
+              "id": "a35ba950-d8fd-459f-b771-c3bb03be2169",
+              "name": "Child",
+              "showOnTom": false,
+              "fareValue": 6500
+            }
+          ],
+          "availableSeats": 71,
+          "unreservedSeats": 0,
+          "unreservedSeatStatus": false
+        },
+        {
+          "coachTypeId": "9abb16d9-f6e9-428a-b872-1721d4f40398",
+          "coachTypeName": "Standard Class",
+          "travellerCategory": [
+            {
+              "id": "9d761cd6-9822-4541-8318-ac97fa615072",
+              "name": "Adult",
+              "showOnTom": false,
+              "fareValue": 3600
+            },
+            {
+              "id": "a35ba950-d8fd-459f-b771-c3bb03be2169",
+              "name": "Child",
+              "showOnTom": false,
+              "fareValue": 3000
+            }
+          ],
+          "availableSeats": 305,
+          "unreservedSeats": 0,
+          "unreservedSeatStatus": false
+        }
+      ]
+    }
+  ],
+  "errorMessages": null
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "NRC Seat Optimiser",
+  "version": "0.1.0",
+  "description": "When a Lagos–Ibadan route is sold out, surfaces same-train split-ticket combinations with total price.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://nrc.gsds.ng/*", "https://api.gsds.ng/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.gsds.ng/*"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "js": ["inject.js"]
+    },
+    {
+      "matches": ["https://*.gsds.ng/*"],
+      "run_at": "document_idle",
+      "js": ["content.js"]
+    }
+  ],
+  "background": { "service_worker": "background.js" }
+}

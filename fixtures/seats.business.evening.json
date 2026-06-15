@@ -1,0 +1,769 @@
+{
+  "status": 200,
+  "message": null,
+  "result": [
+    {
+      "coachId": "7102b96e-3a1b-438b-9e1c-421cecf0a124",
+      "coachName": "C02",
+      "coachNumber": "C02",
+      "availableSeatsCount": 14,
+      "unreservedSeatCount": 0,
+      "availableSeats": [
+        {
+          "seatNumber": "1",
+          "row": 1,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "10",
+          "row": 3,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "11",
+          "row": 3,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "12",
+          "row": 3,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "13",
+          "row": 4,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "14",
+          "row": 4,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "15",
+          "row": 4,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "16",
+          "row": 4,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "17",
+          "row": 5,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "18",
+          "row": 5,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "19",
+          "row": 5,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "2",
+          "row": 1,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "20",
+          "row": 5,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "21",
+          "row": 6,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "22",
+          "row": 6,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "23",
+          "row": 6,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "24",
+          "row": 6,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "25",
+          "row": 7,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "26",
+          "row": 7,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "27",
+          "row": 7,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "28",
+          "row": 7,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "29",
+          "row": 8,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "3",
+          "row": 1,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "30",
+          "row": 8,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "31",
+          "row": 8,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "32",
+          "row": 8,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "33",
+          "row": 9,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "34",
+          "row": 9,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "35",
+          "row": 9,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "36",
+          "row": 9,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "37",
+          "row": 10,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "38",
+          "row": 10,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "39",
+          "row": 10,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "4",
+          "row": 1,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "40",
+          "row": 10,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "41",
+          "row": 11,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "42",
+          "row": 11,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "43",
+          "row": 11,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "44",
+          "row": 11,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "45",
+          "row": 12,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "46",
+          "row": 12,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "47",
+          "row": 12,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "48",
+          "row": 12,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "49",
+          "row": 13,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "5",
+          "row": 2,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "50",
+          "row": 13,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "51",
+          "row": 13,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "52",
+          "row": 13,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "53",
+          "row": 14,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "54",
+          "row": 14,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "55",
+          "row": 14,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "56",
+          "row": 14,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "6",
+          "row": 2,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "7",
+          "row": 2,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "8",
+          "row": 2,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "9",
+          "row": 3,
+          "column": 1,
+          "booked": true
+        }
+      ]
+    },
+    {
+      "coachId": "0d088f5e-6531-498f-8244-3c4ab06f7933",
+      "coachName": "C03",
+      "coachNumber": "C03A",
+      "availableSeatsCount": 57,
+      "unreservedSeatCount": 0,
+      "availableSeats": [
+        {
+          "seatNumber": "1",
+          "row": 1,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "10",
+          "row": 3,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "11",
+          "row": 3,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "12",
+          "row": 3,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "13",
+          "row": 4,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "14",
+          "row": 4,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "15",
+          "row": 4,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "16",
+          "row": 4,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "17",
+          "row": 5,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "18",
+          "row": 5,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "19",
+          "row": 5,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "2",
+          "row": 1,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "20",
+          "row": 5,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "21",
+          "row": 6,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "22",
+          "row": 6,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "23",
+          "row": 6,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "24",
+          "row": 6,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "25",
+          "row": 7,
+          "column": 1,
+          "booked": true
+        },
+        {
+          "seatNumber": "26",
+          "row": 7,
+          "column": 2,
+          "booked": true
+        },
+        {
+          "seatNumber": "27",
+          "row": 7,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "28",
+          "row": 7,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "29",
+          "row": 8,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "3",
+          "row": 1,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "30",
+          "row": 8,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "31",
+          "row": 8,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "32",
+          "row": 8,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "33",
+          "row": 9,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "34",
+          "row": 9,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "35",
+          "row": 9,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "36",
+          "row": 9,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "37",
+          "row": 10,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "38",
+          "row": 10,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "39",
+          "row": 10,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "4",
+          "row": 1,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "40",
+          "row": 10,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "41",
+          "row": 11,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "42",
+          "row": 11,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "43",
+          "row": 11,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "44",
+          "row": 11,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "45",
+          "row": 12,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "46",
+          "row": 12,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "47",
+          "row": 12,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "48",
+          "row": 12,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "49",
+          "row": 13,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "5",
+          "row": 2,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "50",
+          "row": 13,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "51",
+          "row": 13,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "52",
+          "row": 13,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "53",
+          "row": 14,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "54",
+          "row": 14,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "55",
+          "row": 14,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "56",
+          "row": 14,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "57",
+          "row": 15,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "58",
+          "row": 15,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "59",
+          "row": 15,
+          "column": 6,
+          "booked": true
+        },
+        {
+          "seatNumber": "6",
+          "row": 2,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "60",
+          "row": 15,
+          "column": 7,
+          "booked": true
+        },
+        {
+          "seatNumber": "61",
+          "row": 16,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "62",
+          "row": 16,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "63",
+          "row": 16,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "64",
+          "row": 16,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "65",
+          "row": 17,
+          "column": 1,
+          "booked": false
+        },
+        {
+          "seatNumber": "66",
+          "row": 17,
+          "column": 2,
+          "booked": false
+        },
+        {
+          "seatNumber": "67",
+          "row": 17,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "68",
+          "row": 17,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "7",
+          "row": 2,
+          "column": 6,
+          "booked": false
+        },
+        {
+          "seatNumber": "8",
+          "row": 2,
+          "column": 7,
+          "booked": false
+        },
+        {
+          "seatNumber": "9",
+          "row": 3,
+          "column": 1,
+          "booked": false
+        }
+      ]
+    }
+  ],
+  "errorMessages": null
+}

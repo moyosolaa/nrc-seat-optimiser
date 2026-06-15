@@ -1,0 +1,43 @@
+name: NRC seat bot
+
+on:
+  # Every 5 min during the WAT window when departures + their lead-up slots fall
+  # (≈ 06:00–16:00 WAT = 05:00–15:00 UTC). GitHub cron can be delayed under load.
+  schedule:
+    - cron: '*/5 5-15 * * *'
+  workflow_dispatch: {} # manual run for testing
+
+# Needed to commit the updated state file back.
+permissions:
+  contents: write
+
+# Avoid overlapping runs (a slow run shouldn't collide with the next tick).
+concurrency:
+  group: nrc-bot
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - name: Run bot
+        env:
+          X_APP_KEY: ${{ secrets.X_APP_KEY }}
+          X_APP_SECRET: ${{ secrets.X_APP_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: npm run bot
+      - name: Commit state
+        run: |
+          git config user.name "nrc-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update bot state [skip ci]"
+            git push
+          fi
