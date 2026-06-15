@@ -10,6 +10,7 @@
     "build:ext": "node scripts/build-extension.mjs",
     "dry-run": "tsx src/server/dryRun.ts",
     "bot": "tsx src/server/run.ts",
+    "test-post": "tsx src/server/testPost.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
