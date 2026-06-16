@@ -13,6 +13,20 @@
           "departureTime": "16:00"
         }
       ]
+    },
+    "2026-06-16": {
+      "MJS-OA": [
+        {
+          "vehicleCode": "LI3",
+          "departureTime": "16:00"
+        }
+      ],
+      "OA-MJS": [
+        {
+          "vehicleCode": "IL4",
+          "departureTime": "16:00"
+        }
+      ]
     }
   },
   "posted": {}
