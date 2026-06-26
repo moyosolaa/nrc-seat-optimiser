@@ -1,19 +1,5 @@
 {
   "schedule": {
-    "2026-06-23": {
-      "MJS-OA": [
-        {
-          "vehicleCode": "LI3",
-          "departureTime": "16:00"
-        }
-      ],
-      "OA-MJS": [
-        {
-          "vehicleCode": "IL4",
-          "departureTime": "16:00"
-        }
-      ]
-    },
     "2026-06-24": {
       "MJS-OA": [
         {
@@ -29,6 +15,28 @@
       ]
     },
     "2026-06-25": {
+      "MJS-OA": [
+        {
+          "vehicleCode": "LI3",
+          "departureTime": "13:40"
+        },
+        {
+          "vehicleCode": "LI5",
+          "departureTime": "16:00"
+        }
+      ],
+      "OA-MJS": [
+        {
+          "vehicleCode": "IL4",
+          "departureTime": "10:50"
+        },
+        {
+          "vehicleCode": "IL6",
+          "departureTime": "16:30"
+        }
+      ]
+    },
+    "2026-06-26": {
       "MJS-OA": [
         {
           "vehicleCode": "LI3",
